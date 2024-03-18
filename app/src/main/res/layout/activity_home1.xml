@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home1"
+    android:background="#EAC5C3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="𝑺𝑻𝑨𝑹𝑻 𝑪𝑹𝑬𝑨𝑻𝑰𝑵𝑮 𝒀𝑶𝑼𝑹 "
+            android:textColor="#FF0000"
+            android:textSize="32sp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="50dp"
+            android:text="𝑷𝑹𝑶𝑭𝑰𝑳𝑬 "
+            android:textColor="#FF0000"
+            android:textSize="32sp"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:layout_width="294dp"
+            android:layout_height="244dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/person"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="370dp"
+            android:text="Add photo"
+            android:textSize="15sp"
+            android:onClick="second"
+            android:id="@+id/b1"/>
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="460dp"
+            android:src="@drawable/person"/>
+        <EditText
+            android:id="@+id/faname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your First Name"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="460dp"
+            />
+
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="520dp"
+            android:hint="Enter Your Last Name"
+            android:inputType="textPersonName"/>
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="520dp"
+            android:src="@drawable/person"/>
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="580dp"
+            android:src="@drawable/baseline_call_24"/>
+        <EditText
+            android:id="@+id/phno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="580dp"
+            />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="640dp"
+            android:src="@drawable/location"/>
+        <EditText
+            android:id="@+id/addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="640dp"
+            />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="704dp"
+            android:src="@drawable/dob"/>
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date Of Birth(DD/MM/YYY)"
+            android:inputType="date"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="700dp"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email address"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="760dp"
+            />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="760dp"
+            android:src="@drawable/img_1"/>
+        <EditText
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="gender"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="820dp"
+           />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="820dp"
+            android:src="@drawable/img_2"/>
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father Name"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="880dp"
+            />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="880dp"
+            android:src="@drawable/img_3"/>
+        <EditText
+            android:id="@+id/mname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mother Name"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="940dp"
+           />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="940dp"
+            android:src="@drawable/img_4"/>
+        <EditText
+            android:id="@+id/nation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nationality"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="1000dp"
+            />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1000dp"
+            android:src="@drawable/img_5"/>
+        <EditText
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Martial Status"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="1060dp"
+            />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1060dp"
+            android:src="@drawable/img_6"/>
+        <EditText
+            android:id="@+id/lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Language Known"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="1120dp"
+           />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1120dp"
+            android:src="@drawable/img_7"/>
+        <EditText
+            android:id="@+id/hobies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hobies"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="1180dp"
+           />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1180dp"
+            android:src="@drawable/img_8"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="1380dp"
+            android:text="SUBMIT"
+            android:textSize="25dp"
+            android:onClick="third"
+            android:id="@+id/bt3goto"/>
+        <EditText
+            android:id="@+id/fphn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father's Phone No"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="1240dp"
+           />
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1245dp"
+            android:src="@drawable/img_9"/>
+        <EditText
+            android:id="@+id/mphno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mother's Phone No"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="1300dp"
+           />
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1300dp"
+            android:src="@drawable/lsa"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>

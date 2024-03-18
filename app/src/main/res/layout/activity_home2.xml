@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <View
+            android:id="@+id/_bg__thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="1500dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/img_18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="𝕊𝕋𝔸ℝ𝕋 ℂℝ𝔼𝔸𝕋𝕀ℕ𝔾 𝕐𝕆𝕌ℝ "
+            android:textSize="34dp"
+            android:textColor="#BEFF03"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ℙℝ𝕆𝔽𝕀𝕃𝔼"
+            android:textSize="34dp"
+            android:textColor="#BEFF03"
+            android:layout_marginLeft="143dp"
+            android:layout_marginTop="115dp"/>
+
+        <EditText
+            android:id="@+id/faname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your First Name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓝𝓪𝓶𝓮"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+        <EditText
+            android:id="@+id/pnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your phone no"
+            android:inputType="phone"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="259dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓟𝓱𝓸𝓷𝓮 𝓷𝓸"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Address"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓐𝓭𝓭𝓻𝓮𝓼𝓼"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="(dd/mm/yyyy)"
+            android:inputType="date"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓓.𝓞.𝓑"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+        <EditText
+            android:id="@+id/maill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓔-𝓜𝓪𝓲𝓵"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+
+        <EditText
+            android:id="@+id/fn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your father name"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="500dp"
+            android:text="𝓕𝓪𝓽𝓱𝓮𝓻 𝓝𝓪𝓶𝓮"
+            android:textColor="#9ACCF8"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/mn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your mother name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓜𝓸𝓽𝓱𝓮𝓻 𝓝𝓪𝓶𝓮"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+        <EditText
+            android:id="@+id/ms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your marital status"
+            android:inputType="textPersonName"
+            android:layout_marginTop="620dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="620dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓜𝓪𝓻𝓲𝓽𝓪𝓵 𝓢𝓽𝓪𝓽𝓾𝓼"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+
+        <EditText
+            android:id="@+id/nat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your nationality"
+            android:inputType="textPersonName"
+            android:layout_marginTop="680dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="680dp"
+            android:text="𝓝𝓪𝓽𝓲𝓸𝓷𝓪𝓵𝓲𝓽𝔂"
+            android:textColor="#9ACCF8"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/lk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the languages you know"
+            android:inputType="textPersonName"
+            android:layout_marginTop="740dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="740dp"
+            android:text="𝓛𝓪𝓷𝓰𝓾𝓪𝓰𝓮"
+            android:textColor="#9ACCF8"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/hobies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your hobies"
+            android:inputType="textPersonName"
+            android:layout_marginTop="800dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="805dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓗𝓸𝓫𝓲𝓮𝓼"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+
+        <EditText
+            android:id="@+id/fatherphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your father no"
+            android:inputType="phone"
+            android:layout_marginTop="860dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="865dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓕𝓪𝓽𝓱𝓮𝓻 𝓹𝓱-𝓷𝓸"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+
+        <EditText
+            android:id="@+id/motherphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your mother no"
+            android:inputType="phone"
+            android:layout_marginTop="920dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="925dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓜𝓸𝓽𝓱𝓮𝓻 𝓹𝓱-𝓷𝓸"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+        <EditText
+            android:id="@+id/gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your personal mailid"
+            android:inputType="textPersonName"
+            android:layout_marginTop="985dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="985dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓟𝓮𝓻𝓼𝓸𝓷𝓪𝓵 𝓶𝓪𝓲𝓵"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+        <EditText
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your gender"
+            android:inputType="textPersonName"
+            android:layout_marginTop="1045dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#9ACCF8"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="1045dp"
+            android:layout_marginLeft="10dp"
+            android:text="𝓰𝓮𝓷𝓭𝓮𝓻"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="1105dp"
+            android:layout_marginLeft="70dp"
+            android:text="𝓚𝓲𝓷𝓭𝓵𝔂 𝓤𝓹𝓵𝓸𝓪𝓭 𝓨𝓸𝓾𝓻 𝓟𝓻𝓸𝓯𝓲𝓵𝓮"
+            android:textSize="22dp"
+            android:textColor="#9ACCF8"/>
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="1155dp"
+            android:src="@drawable/img_19" />
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:onClick="third"
+            android:text="SUBMIT"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="111dp"
+            android:layout_marginTop="1380dp"
+            android:layout_marginHorizontal="100dp"/>
+    </RelativeLayout>
+</ScrollView>
